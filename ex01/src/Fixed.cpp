@@ -6,7 +6,7 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/19 16:34:02 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/19 17:11:55 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/22 18:42:51 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ Fixed::Fixed(const int input)
 Fixed::Fixed(const float input)
 {
 	std::cout << "Fixed Float Constructor called" << std::endl;
-	this->_fp_value = round(input * (1 << this->_fract_bits));
+	this->_fp_value = roundf(input * (1 << this->_fract_bits));
 }
 
 Fixed::Fixed(const Fixed &copy)
