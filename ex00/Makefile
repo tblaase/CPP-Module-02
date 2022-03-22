@@ -6,15 +6,15 @@
 #    By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/16 14:46:31 by tblaase           #+#    #+#              #
-#    Updated: 2022/03/19 16:07:39 by tblaase          ###   ########.fr        #
+#    Updated: 2022/03/22 18:36:33 by tblaase          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		=	fixed
 
-CC			=	c++
+CXX			=	c++
 
-CFLAGS		=	-Wall -Werror -Wextra -std=c++98
+CXXFLAGS		=	-Wall -Werror -Wextra -std=c++98
 
 # directories
 SRC_DIR		=	src/
@@ -52,14 +52,14 @@ all: $(NAME)
 #compile the executable
 $(NAME): $(OBJ)
 	@echo "$(YELLOW)Compiling [$(NAME)]...$(RESET)"
-	@$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	@$(CXX) $(CXXFLAGS) $(OBJ) -o $(NAME)
 	@echo "$(GREEN)Finished [$(NAME)]$(RESET)"
 
 #compile objects
 $(OBJ_DIR)%.o:$(SRC_DIR)%.cpp
 	@mkdir -p $(OBJ_DIR)
 	@echo "$(YELLOW)Compiling [$@]...$(RESET)"
-	@$(CC) $(CFLAGS) -I $(INC_DIR) -o $@ -c $<
+	@$(CXX) $(CXXFLAGS) -I $(INC_DIR) -o $@ -c $<
 	@printf "$(UP)$(CUT)"
 	@echo "$(GREEN)Finished [$@]$(RESET)"
 	@printf "$(UP)$(CUT)"
