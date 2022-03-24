@@ -6,12 +6,11 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 15:06:26 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/22 18:45:28 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/22 19:27:55 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
-#include <string>
 
 
 const int Fixed::_fract_bits = 8;
