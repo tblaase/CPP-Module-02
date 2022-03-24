@@ -6,7 +6,7 @@
 #    By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/16 14:46:31 by tblaase           #+#    #+#              #
-#    Updated: 2022/03/22 18:42:40 by tblaase          ###   ########.fr        #
+#    Updated: 2022/03/24 15:59:35 by tblaase          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ OBJ			=	$(addprefix $(OBJ_DIR), $(OBJ_FILES))
 all: $(NAME)
 	@printf "\n"
 	@printf "$(GREEN)            ___ ___          ___    _____    _     _      ___ ___ \n$(RESET)"
-	@printf "$(GREEN) ___ _ _   |   |   |     ___|  _|  |    _| _| |_ _| |_   |   |_  |\n$(RESET)"
+	@printf "$(GREEN) ___ _ _   |   |_  |     ___|  _|  |    _| _| |_ _| |_   |   |_  |\n$(RESET)"
 	@printf "$(GREEN)| -_|_'_|  | | |_| |_   | . |  _|  |   |_ |_   _|_   _|  | | |  _|\n$(RESET)"
 	@printf "$(GREEN)|___|_,_|  |___|_____|  |___|_|    |_____|  |_|   |_|    |___|___|\n$(RESET)"
 	@printf "$(GREEN)                                                                  \n$(RESET)"
