@@ -6,12 +6,11 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 16:10:31 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/24 18:27:51 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:42:46 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "Point.hpp"
-#include "../include/Point.hpp"
+#include "Point.hpp"
 
 static float area (const Point p1, const Point p2, const Point p3)
 {

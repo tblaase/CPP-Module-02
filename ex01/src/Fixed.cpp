@@ -6,11 +6,11 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/19 16:34:02 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/22 18:42:51 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:36:41 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/Fixed.hpp" //had to change this to the full path, my VSCode went funky otherwise and included the Fixed.hpp from ex00
+#include "Fixed.hpp"
 
 const int Fixed::_fract_bits = 8;
 

@@ -6,12 +6,11 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 15:57:29 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/24 18:44:06 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:39:58 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "Point.hpp"
-#include "../include/Point.hpp"
+#include "Point.hpp"
 
 bool bsp(const Point a, const Point b, const Point c, const Point point);
 

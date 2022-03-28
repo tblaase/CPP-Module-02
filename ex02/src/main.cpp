@@ -6,7 +6,7 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 15:06:24 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/22 17:06:07 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:38:40 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,6 @@ int main(void)
 
 	std::cout << Fixed::max(a, b) << "\t\tthe max of a and b\n" << std::endl;
 	std::cout << Fixed::min(a, b) << "\tthe min of a and b\n" << std::endl;
+
 	return 0;
 }

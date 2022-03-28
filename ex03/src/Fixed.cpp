@@ -6,13 +6,11 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 15:57:16 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/24 18:44:00 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:41:11 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "Fixed.hpp"
-#include "../include/Fixed.hpp"
-
+#include "Fixed.hpp"
 
 const int Fixed::_fract_bits = 8;
 
@@ -125,7 +123,6 @@ Fixed	Fixed::operator--()
 Fixed	Fixed::operator++(int)
 {
 	Fixed tmp = *this;
-	// i = this->_fp_value;
 	++this->_fp_value;
 	return (tmp);
 }
@@ -133,7 +130,6 @@ Fixed	Fixed::operator++(int)
 Fixed	Fixed::operator--(int)
 {
 	Fixed tmp = *this;
-	// i = this->_fp_value;
 	--this->_fp_value;
 	return (tmp);
 }

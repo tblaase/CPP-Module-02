@@ -6,19 +6,16 @@
 /*   By: tblaase <tblaase@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 16:04:21 by tblaase           #+#    #+#             */
-/*   Updated: 2022/03/24 17:53:20 by tblaase          ###   ########.fr       */
+/*   Updated: 2022/03/28 14:42:18 by tblaase          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include "Point.hpp"
-#include "../include/Point.hpp"
-
+#include "Point.hpp"
 
 // Constructors
 Point::Point(): _x(0), _y(0)
 {
 	// std::cout << "Point Default Constructor called" << std::endl;
-	/*CODE*/
 }
 
 Point::Point(const float x, const float y):_x(x), _y(y)
@@ -36,7 +33,6 @@ Point::Point(const Point &copy): _x(copy.getX()), _y(copy.getY())
 Point::~Point()
 {
 	// std::cout << "Point Deconstructor called" << std::endl;
-	/*CODE*/
 }
 
 // Overloaded Operators
@@ -66,7 +62,7 @@ const Fixed	&Point::getY(void)const
 // Setter
 
 
-
+// Overload for ostream
 std::ostream	&operator<<(std::ostream &o, Point const point)
 {
 	o << "_x: " << point.getX() << " / _y: " << point.getY() << std::endl;
